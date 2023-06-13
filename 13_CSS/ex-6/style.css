@@ -1,0 +1,101 @@
+body {
+  max-width: 1200px;
+}
+
+header {
+  background: purple;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cyan-container1 {
+  display: flex;
+}
+
+.cyan-container2 {
+  display: flex;
+}
+
+.cyan1 {
+  width: 120px;
+  height: 30px;
+  margin-left: 15px;
+  background: cyan;
+}
+.cyan2 {
+  width: 120px;
+  height: 30px;
+  margin-left: 15px;
+  background: cyan;
+}
+
+.cyan3 {
+  width: 80px;
+  height: 30px;
+  margin-left: 15px;
+  background: cyan;
+}
+
+.cyan4 {
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
+  background: cyan;
+}
+
+.cyan5 {
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
+  background: cyan;
+}
+
+.container {
+  display: flex;
+}
+.yellow {
+  width: 100%;
+  background: yellow;
+}
+.green {
+  width: 300px;
+  background: rgb(92, 200, 42);
+  height: 90vh;
+}
+
+.rectangle-container {
+  height: 33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rectangle {
+  width: 260px;
+  height: 50px;
+  margin: 5px;
+  background: rgb(8, 23, 57);
+}
+.lorem-container {
+  display: flex;
+  height: 33%;
+}
+.lorem {
+  height: 33%;
+  padding: 10px;
+}
+
+.squares-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.square {
+  width: 100px;
+  margin: 10px;
+  height: 100px;
+  background: red;
+}

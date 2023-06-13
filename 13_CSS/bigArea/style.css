@@ -1,0 +1,39 @@
+body {
+  /* background-color: purple; */
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1/3fr);
+  grid-template-rows: repeat(3, 1/3fr);
+  width: auto;
+  column-gap: 10px;
+  row-gap: 10px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+/* .item {
+  height: 100px;
+} */
+
+#purple {
+  background-color: purple;
+  height: 100px;
+}
+
+#green {
+  background-color: limegreen;
+  grid-column: 2/2 span;
+  grid-row: 1/2 span;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#orange {
+  width: 66%;
+  height: 66%;
+  background-color: orange;
+}

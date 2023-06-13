@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Workshop: Attributes</title>
+  </head>
+  <body>
+    <img
+      id="myImage"
+      src="https://static.wixstatic.com/media/f4461b_83457ca5dd844c71a760d36e6583d0ff.png/v1/fill/w_168,h_168,al_c,usm_0.66_1.00_0.01/f4461b_83457ca5dd844c71a760d36e6583d0ff.png"
+    />
+    <br />
+    <a id="myLink" href="http://www.themostamazingwebsiteontheinternet.com/"
+      >The Best Website Ever</a
+    >
+    <button>Click me!</button>
+    <button class="this-one">Click me!</button>
+
+    <script>
+      // Write the image's url to the console.
+      const img = document.getElementById('myImage');
+      console.log('Image URL: ', img.src);
+
+      // Replace the image with a picture of your favorite animal.
+      img.src =
+        'https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?auto=compress&cs=tinysrgb&w=600';
+
+      // Make the link point to the Green Fox Academy website.
+      const link = document.getElementById('myLink');
+      link.href = 'https://www.greenfoxacademy.com/';
+
+      // Disable the second button.
+      const secondBtn = document.querySelector('.this-one');
+      secondBtn.disabled = true;
+
+      // Replace its text with 'Don't click me!'.
+      secondBtn.textContent = "Don't click me!";
+    </script>
+  </body>
+</html>

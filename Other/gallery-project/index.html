@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Image Gallery</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <body>
+      <h1>Image Gallery</h1>
+      <div id="gallery">
+        <div id="sliding-image">
+          <button onclick="previous()">Previous</button>
+
+          <span id="current"></span>
+
+          <button onclick="next()">Next</button>
+        </div>
+
+        <div id="storage">
+          <div style="background-color: red"></div>
+          <div style="background-color: blue"></div>
+          <div style="background-color: purple"></div>
+          <div style="background-color: yellow"></div>
+        </div>
+      </div>
+    </body>
+    <script src="script.js" async defer></script>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+div {
+  display: flex;
+  flex-wrap: wrap;
+  width: 800px;
+  margin: 0 auto;
+  column-gap: 30px;
+}
+header,
+footer {
+  background: aqua;
+  height: 100px;
+  display: flex;
+  width: 100%;
+}
+footer {
+  background: blue;
+}
+main,
+aside {
+  height: 600px;
+}
+main {
+  flex-grow: 4;
+  background: red;
+  position: relative;
+}
+aside {
+  width: 15%;
+}
+.orange {
+  background: orange;
+}
+
+.purple {
+  background: purple;
+}
+
+nav {
+  display: block;
+  background: black;
+  width: 60px;
+  height: 60px;
+  margin: 15px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}

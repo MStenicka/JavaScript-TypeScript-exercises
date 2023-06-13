@@ -1,0 +1,47 @@
+body {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  background: purple;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.cyan1 {
+  width: 120px;
+  height: 30px;
+  margin-left: 15px;
+  background: cyan;
+}
+.cyan2 {
+  width: 120px;
+  height: 30px;
+  margin-left: 15px;
+  background: cyan;
+}
+
+.cyan3 {
+  width: 80px;
+  height: 30px;
+  margin-left: 15px;
+  background: cyan;
+}
+
+.container {
+  display: flex;
+  height: 500px;
+}
+.yellow {
+  flex-grow: 4;
+  background: yellow;
+}
+.green {
+  flex-grow: 1;
+  background: rgb(92, 200, 42);
+}
