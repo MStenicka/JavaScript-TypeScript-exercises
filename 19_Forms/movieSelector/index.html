@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Movie selector</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <form>
+      <h2>Movie Selector</h2>
+      <div>
+        <select id="genre-list">
+          <option value="all">All Genres</option>
+        </select>
+        <select id="movie-list"></select>
+      </div>
+      <p><span id="selected-movie"></span></p>
+    </form>
+    <div id="movie-details-container">
+      <table id="movie-details-table"></table>
+      <img id="movie-image" src="" alt="" style="max-width: 180px" />
+    </div>
+    <script src="index.js" async defer></script>
+  </body>
+</html>

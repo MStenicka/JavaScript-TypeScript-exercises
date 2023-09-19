@@ -1,0 +1,99 @@
+:root {
+  --primary-color: rgb(21, 71, 102);
+  --secondary-color: rgb(143, 192, 205);
+  --accent-color: rgb(242, 141, 69);
+  --background-color: rgb(242, 234, 218);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-color);
+  font-family: sans-serif;
+}
+
+form {
+  width: 500px;
+  padding: 20px;
+  font-family: sans-serif;
+  margin: auto;
+  margin-top: 15px;
+  border-radius: 15px;
+  background-color: var(--primary-color);
+  color: #fff;
+  box-shadow: 12px 12px 5px 5px rgba(12, 53, 202, 0.1);
+}
+
+h2 {
+  margin-top: 0;
+}
+
+select {
+  padding: 10px;
+  width: 40%;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 5px;
+  font-family: sans-serif;
+  background-color: #fff;
+  color: var(--primary-color);
+}
+
+p {
+  margin-top: 20px;
+}
+
+span {
+  color: var(--secondary-color);
+}
+
+#movie-details-table {
+  margin: auto;
+  border-radius: 15px;
+  border-collapse: collapse;
+  font-family: sans-serif;
+  background-color: #fff;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+#movie-details-table th,
+#movie-details-table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+#movie-details-table th {
+  background-color: var(--accent-color);
+  color: #fff;
+}
+
+#movie-details-table a {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+#login-form {
+  background: linear-gradient(
+    135deg,
+    var(--primary-color),
+    var(--secondary-color)
+  );
+}
+
+#movie-details-container {
+  display: flex;
+  width: 70%;
+  margin: auto;
+  margin-top: 70px;
+  align-items: center;
+}
+
+#movie-details-table {
+  flex: 1;
+}
+
+#movie-image {
+  margin-left: 20px;
+  border-radius: 15px;
+}

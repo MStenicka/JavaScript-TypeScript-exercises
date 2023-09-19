@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="/static/style.css" />
+  </head>
+  <body>
+    <h1>Cocktails</h1>
+    <nav>
+      <a href="/cocktails">ALL</a>
+      <a href="/cocktails/gin">GIN</a>
+      <a href="/cocktails/vodka">VODKA</a>
+      <a href="/cocktails/rum">RUM</a>
+      <a href="/cocktails/tequila">TEQUILA</a>
+    </nav>
+    <br />
+    <table>
+      <thead>
+        <tr>
+          <th id="NAME">NAME</th>
+          <th id="PRICE">PRICE</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% cocktails.forEach((cocktail, item) => { %>
+        <tr>
+          <td>
+            <strong><%= cocktail.name %> </strong><% if (!cocktail.isAlcoholic)
+            { %> (non-alcoholic) <% } %> <br />
+            <%= cocktail.contains.join(', ') %>
+          </td>
+          <td class="center"><strong><%= cocktail.price %> Ft</strong></td>
+        </tr>
+        <% }); %>
+      </tbody>
+    </table>
+
+    <script src="" async defer></script>
+  </body>
+</html>

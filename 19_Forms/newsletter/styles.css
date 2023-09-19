@@ -1,0 +1,59 @@
+body {
+  background: linear-gradient(to top right, #DD3C39, rgb(191, 205, 158));
+  height: 800px;
+  display: flex;
+}
+
+form {
+  justify-content: center; */
+  align-items: center;
+  width: 350px;
+  height: 300px;
+  border-radius: 30px;
+  box-shadow: 20px 20px 20px grey;
+  background-color: white;
+  /* background: //linear-gradient(to top right, lightgrey, white); */
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+h2 {
+  text-align: center;
+  width: 100%;
+}
+
+/* Input styles */
+input[type='text'],
+input[type='email'] {
+  width: 90%;
+  height: 20px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  font-size: 16px;
+  border-radius: 30px;
+  background: linear-gradient(to right, lightgrey, white);
+}
+
+/* Sign up button */
+input[type='submit'] {
+  background: linear-gradient(to right, #236be8, #07d9b6);
+  width: 120px;
+  height: 35px;
+  color: white;
+  /* padding: 14px 20px;
+  margin: 8px 0; */
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 24px
+}
+
+input[type='submit']:hover {
+  background-color: green;
+}
+

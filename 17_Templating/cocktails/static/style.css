@@ -1,0 +1,31 @@
+a {
+  margin: 0px 5px 0px 5px;
+  text-decoration: none;
+}
+
+table thead {
+  background: #000000;
+  border-bottom: 5px solid #ffffff;
+  color: #ffffff;
+  height: 40px;
+}
+
+table #NAME {
+  width: 400px;
+}
+
+table #PRICE {
+  width: 200px;
+}
+
+table td {
+  padding: 6px;
+}
+
+table tr:nth-child(even) {
+  background: lightgray;
+}
+
+.center {
+  text-align: center;
+}

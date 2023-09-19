@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Account login</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <form>
+      <h2>What is your favourite pet?</h2>
+      <div>
+        <input type="radio" id="dog" name="pet" value="dog" />
+        <label for="dog">Dog</label>
+      </div>
+      <div>
+        <input type="radio" id="cat" name="pet" value="cat" />
+        <label for="cat">Cat</label>
+      </div>
+      <div>
+        <input type="radio" id="fish" name="pet" value="fish" />
+        <label for="fish">Viktor the goldfish</label>
+      </div>
+      <h2>Do you want to sign up for cat facts?</h2>
+      <div>
+        <input type="radio" id="yes" name="cat-facts" value="yes" />
+        <label for="yes">Yes</label>
+      </div>
+      <div>
+        <input type="radio" id="no" name="cat-facts" value="no" />
+        <label for="no">No</label>
+      </div>
+      <button id="cat-button" disabled>I love cats</button>
+      <button id="sign-up-button" disabled>Sign up</button>
+    </form>
+    <script src="index.js"></script>
+  </body>
+</html>
